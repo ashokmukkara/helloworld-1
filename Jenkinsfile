@@ -27,6 +27,12 @@ pipeline {
           }
         }
 
+        stage('sonar') {
+          steps {
+            withSonarQubeEnv(installationName: 'sonarqube', envOnly: true)
+          }
+        }
+
       }
     }
 

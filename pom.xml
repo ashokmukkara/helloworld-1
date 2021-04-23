@@ -28,6 +28,12 @@
 
     <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
   </properties>
+  
+  <properties>
+  <sonar.projectKey>myproject-hello</sonar.projectKey>
+  <sonar.organization>ashokmukkara</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
 
   <build>
     <plugins>
